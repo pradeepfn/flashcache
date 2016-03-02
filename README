@@ -18,6 +18,11 @@ At the top directory, run
 
 make KERNEL_TREE=<root of the kernel source tree>
 
+then install the module,
+
+make KERNEL_TREE=<root of kernel source tree> install
+
+
 This builds both the flashcache.ko and 3 utilities.
 
 flascache-sa-guide.txt has details on how to create and load
